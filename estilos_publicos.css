@@ -1,0 +1,2014 @@
+/*Inicio tabla de contenio en modalidad de MVC*/
+
+.thead {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	padding: 3px;
+	background-color: #B30001;
+	text-align: center;	/*border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #CCCCCC;*/
+	}
+
+.tbody {
+	font-family: verdana;
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+	background-color: #F8F8F8;
+	/*padding: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;*/
+    }
+
+
+table.table {
+	background-color: #F0F1ED;
+	margin: 0px;
+    }
+
+.td{
+	padding-right: 2px;
+	padding-left: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #CCC;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+
+.th_encabeza{
+	padding-right: 2px;
+	padding-left: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #F2F2F2;
+	border-bottom-color: #FFF;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #B30001;
+}
+
+
+/*.table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+.thead {
+	text-align: center;
+	display: table;
+	float: left;
+	width: 100%;
+	background-color: #718097;
+	padding: 2px;
+	height: 25px;
+	border: 1px solid #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+    }
+
+.thead tr {
+           /* display: table-row;
+            width: 100%;
+        }
+
+.thead th {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	width: 10%;
+        }
+
+.tbody {
+	display: block;
+	height: 100px;
+	overflow: auto;
+	float: left;
+	width: 100%;
+	background-color: #F8F8F8;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+    }
+
+.tbody tr {
+	display: table;
+	width: 100%;
+	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	}
+	
+
+.tbody td {
+	padding: 1px;
+	width: 10%;
+        }*/
+
+/*.th {
+	width: 25%;
+	
+    }
+
+.td {
+        width: 25%;
+    }
+.tr:after { /* IE8 fix */
+       /* content: ".";
+        margin-left: -3px; /* to hide the content above tr */ /* not necessary if you are ok with 1px gap */
+       /* visibility: hidden;
+    }*/
+
+
+/*fin campos tabla MVC cuando se quiere scroll*/
+
+/*Estilos modificados para forma de pago*/
+
+.tabla_tarjeta_credito{
+	width: 700px;
+	vertical-align:central;
+	border: 1px solid #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FCFCFC;
+}
+
+.celda_tarjeta_credito{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #B30001;
+}
+
+.celda_tabla_encabezado_forma_cr{
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	color: #B30001;
+	text-decoration: none;
+	width: 700px;
+	padding-top: 30px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+
+.tabla_encabezado_forma_cr{
+	width: 700px;
+}
+
+
+.celda_forma_cr{
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+
+.tabla_forma_cr{
+		width: 700px;
+	vertical-align:central;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+.celda_tabla_pie_tarjeta_credito{
+	padding-top: 20px;
+}
+
+
+
+
+
+.tabla_medios_pago {
+	width: 100%;
+	align: center;
+	margin: auto;
+}
+
+
+
+.tabla_encabezado_medios_pago{
+	width: 95%;
+	align: center;
+	margin: auto;
+}
+
+.undefined{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	/*font-weight: bold;*/
+	color: #797979;
+	text-decoration: none;
+}
+
+	
+.celda_tabla_pie_medios_pago{
+	text-align: center;		
+		}
+
+/*.................ESTOS SON LOS CSS QUE SE MODIFICARON PARA CAMBIO DE COLOR DEL PASO2 DEL PROCESO DE PAGO DE LA TAQUILLA NOVIEMBRE 2012.............*/
+
+/*texto segundo paso en el pago donde dice la lista de los medios de pagos a escoger*/
+.texto_forma_pago{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #797979;
+	text-decoration: none;
+}
+
+.celda_tabla_encabezado_medios_pago{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	background-color: /*#8D8772*/#CFCECE;
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	/*-webkit-border-radius: 15px;*/
+	/*border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#F9F9F7)/*A49989*/, to(#EAE9E6 /*#EAE7E7 /*DFD8CA*/), color-stop(0.8, 	#EAE9E6 /*DFD8CA*/));
+	background: -moz-linear-gradient(top, #F9F9F7 /*A49989*/, #EAE9E6 /*#EAE7E7 /*DFD8CA*/);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F9F9F7' /*A49989*/, endColorstr='#EAE9E6'/*DFD8CA*/);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F9F9F7', endColorstr='#EAE9E6')";
+	background: -o-linear-gradient(top,#F9F9F7/*A49989*/, #EAE9E6 /*#EAE7E7/*DFD8CA*/);
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+}
+.pgos_menu_up{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #B30001;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+	
+.tabla_medio_pago{
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width: 95%;
+	align: center;
+	margin: auto;
+	background-color: /*#DFD8CA #EAE9E6 #DFDEDB */#EAE9E6;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #D8CFBE;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+.celda_tabla_medio_pago{
+	font-size: 15px;
+	padding: 20px;
+	cursor:hand;
+	align: center;
+	margin: auto;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	}
+
+.tableRollOverEffect1{
+	background-color:/*E3DFDF*/#DCD9D9;
+	color:#FFF;
+	border: 1px solid #F00;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin: auto;
+	}
+
+.tableRowClickEffect1{
+	background-color:/*#E3E3E3 #D3CDC9 #D6D4D4*/#E3E2E2;
+	color:#FFFFFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-size: 15px;
+	background-repeat: repeat-x;
+	margin: auto;
+	}
+
+.boton_forma_pago {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #2E2E2E/*#FFF*/;
+	height: 30px;
+	text-decoration: none;
+	width: 300px;
+	border: 1px solid #DFDCD7;
+	margin-left: 30px;
+	letter-spacing: 1px;
+	background-color: #C1C1C1 /*#827664*/;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	cursor:hand;
+}
+
+.tituloprincipal{
+	font-size: 12px;
+	font-weight: bold;
+	color: #B30001;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+}
+
+/*.........................ACA TERMINAN.................*/
+
+
+
+
+
+/*estilos aplicados para el portal DAVIVIENDA OCTUBRE 2013*/
+
+.davipagos_body {
+	background-color: #EBEBEB;
+	margin: 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+.letraCapital
+{
+	font-size:36px;
+
+}
+a:hover.continuar boton_pagar{
+	border: 1px solid #B30001;
+	height: 26px;
+	font-size:12px;
+	font-family: Verdana;
+	background-color: #B30001;
+	color: #FFF;
+	font-weight: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;}
+
+a:visited.continuar boton_pagar{
+	border: 1px solid #B30001;
+	height: 26px;
+	font-size:12px;
+	font-family: Verdana;
+	background-color: #B30001;
+	color: #FFF;
+	font-weight: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;}
+
+.continuar boton_pagar{
+	border: 1px solid #B30001;
+	height: 26px;
+	font-size:12px;
+	font-family: Verdana;
+	background-color: #B30001;
+	color: #FFF;
+	font-weight: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;}
+
+.davifondo_encabezado{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/Page_03_02_fondo.jpg);
+	background-repeat: repeat-x;
+}
+
+.breadcrumb
+{
+	font-size:11px;
+	font-style:italic;
+	display:inline;
+	margin-left:15px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.davilink{
+	color: #FFF;
+	text-decoration: none;
+	}
+	
+a:hover.davilink{
+	color: #FFFFFF;
+	text-decoration: underline;
+	}
+	
+.subtituloInterna
+{
+	font-family:Helvetica;
+	font-size:15px;
+	color:#b30001;
+	font-weight:600;
+	
+}
+
+
+.tituloInterna
+{
+	font-family:Helvetica;
+	font-size:20px;
+	color:#b30001;
+	font-weight:600;
+	letter-spacing:-1pt;;
+}
+
+
+.btnPagos 
+{
+	display:block;
+	width:120px;
+	height:29px;
+	text-indent:-1000px;
+	background-image:url(/tiendas_c/plantillas/davivienda_pagos/graficas/Index_17.jpg);
+}
+
+.btnPagos:hover
+{
+	display:block;
+	background-repeat:none;
+	background:url(/tiendas_c/plantillas/davivienda_pagos/graficas/Index_Over.jpg);
+}
+
+.botones
+{
+	display:block;
+	width:150px;
+	height:29px;
+	color:#808080;
+	background-color:#e5e5e5;
+	text-decoration:none;
+	line-height:29px;
+}
+
+.botones:hover
+{
+	display:block;
+	color:#ffffff;
+	background-color:#9e9e9e;
+}
+
+
+
+.textopago
+{
+	font-size:11px;
+	color: #b30001;
+	text-transform:uppercase;
+}
+
+.textopago2
+{
+	font-size:11px;
+	color: #333;
+	text-transform:uppercase;
+}
+
+
+
+/*FIN*/
+
+.campo_text_buscar {
+	border: 1px solid #FFFFFF;
+	width: 130px;
+	height: 20px;
+	font-size:11px;
+	color: #939597;
+	background-color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	 }
+
+
+.texto_grande {
+	color:#C32036;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	height: 30px;
+}
+
+
+.texto_normal {
+	color: #939597;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height: 18px;
+
+}
+
+
+
+.campo_text {
+	border: 1px solid #CCCCCC;
+	height: 23px;
+	font-size:12px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #797979;
+}
+
+.boton{
+	border: 1px solid #B30001;
+	height: 26px;
+	font-size:12px;
+	font-family: Verdana;
+	background-color: #B30001;
+	color: #FFF;
+	font-weight: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	}
+
+
+
+.tabla_logeo_pago {
+	padding: 5px;
+	background-color: #F4F4F4;
+	border: 1px solid #E8E8E8;
+	margin: 3px;
+}
+
+
+
+.fila_logeo_pago {
+  padding: 5px;
+	background-color: #F4F4F4;
+	
+}
+
+.celda_logeo_pago {
+ padding: 5px;
+ background-color: #F4F4F4;
+	
+}
+
+.tit_tabla{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	font-weight: bold;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-color: #B30001;
+}
+
+.campos_tabla{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #808285;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F5F5F5;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	padding-right: 1px;
+	padding-left: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #CCCCCC;
+}
+
+.label{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #797979;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.labelbold{
+	font-family: futurabq, arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #B30001;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	}
+	
+.labelbold_Total_izq{
+	font-family: futurabq, arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #B30001;
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	}	
+	
+.linkpagar{
+	font-family: futurabq, arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #660000;
+	background-color: #B30001;
+	border: 1px solid #b30001;
+	text-decoration: none;
+	padding: 3px;
+	}
+
+a.linkpagar{
+	font-family: futurabq, arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #660000;
+	background-color: #B30001;
+	border: 1px solid #b30001;
+	text-decoration: none;
+	padding: 3px;
+	}
+
+a:hover.linkpagar{
+	font-family: futurabq, arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: b30001;
+	border: 1px solid #0a81c5;
+	text-decoration: none;
+	padding: 3px;
+	}
+	
+	
+.labelIzquierda{
+
+}	
+
+.campos_captura{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #797979;
+	background-color: #F5F5F5;
+	border: 1px solid #C7C8C9;
+	text-decoration: none;
+	padding: 3px;
+	width: 240px;
+}
+
+.nombre_centro_logeo{
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: b30001;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.se_abrira{
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+	height: 300px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: b30001;
+}
+.texto_sesion_vencida_publica {
+	font-family: verdaba;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0055A1;
+	text-decoration: none;
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #9DCAE1;
+	border-right-color: #9DCAE1;
+	border-bottom-color: #9DCAE1;
+	border-left-color: #9DCAE1;
+	line-height: 18px;
+	}
+.vinculo_seccion_vencida{
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0055a1;
+	text-decoration: underline;
+}
+.tamano_tabla_vencida {
+	width: 918px;
+	text-align: center;
+}
+
+.nombre_centro_logeo_red{
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #900;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.campo_logeo_davivienda_pagos{
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/admon_campo_logeo.jpg);
+	background-repeat: repeat-y;
+	border: 1px solid #8F8F8F;
+}
+
+.label_davivienda_pagos_logeo{
+	font-family: verdana;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+	text-align: right;
+}
+
+.boton_ingreso_logeo{
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/admon_boton_logeo.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 21px;
+	width: 96px;
+	border: 1px solid #1B69AE;
+}
+
+.fondo_mundo{
+	background-color: #FFF;
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/admon_home_fondo_mundo.jpg);
+	background-repeat: no-repeat;
+	height: 319px;
+}
+.fecha_home{
+	font-family: arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 20px;
+}
+.linea_creditos_azul{
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #0160B0;
+}
+
+.creditos_home{
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+	text-align: center;
+}
+
+.home_fondo_azul{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/admon_home_fondoazul.jpg);
+	background-repeat: no-repeat;
+	height: 21px;
+}
+
+/*FIN*/
+
+
+.fondo4{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/davivienda_pagos_fond_4.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
+.fondo4_1{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/davivienda_pagos_fond_4.jpg);
+	background-repeat: repeat-y;
+	background-position: bottom;
+	}
+.nombre_logo{
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+}
+.trampa1{
+	font-family: arial;
+	font-size: 8px;
+	color: #FFF;
+	text-decoration: none;
+	height: 10px;
+}
+.fondo_linea1{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/davivienda_pagos_fond_1.gif);
+	background-repeat: repeat-x;
+	height: 24px;
+}
+.fondo_linea2{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/davivienda_pagos_fond_2.gif);
+	background-repeat: repeat-x;
+	height: 24px;
+}
+.fondo_linea3{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/davivienda_pagos_fond_3.gif);
+	background-repeat: repeat-x;
+	height: 24px;
+}
+.bienvenido{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 5px;
+}
+.inicio{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 5px;
+}
+a:hover.inicio{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.recuadro_contenido{
+	border: 1px solid #E3D9D2;
+}
+
+.pse{
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+.tabla_forma_pago {
+	/*padding: 15px;*/
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.pie_pagina_fondo{
+	background-image: url(/tiendas_c/plantillas/davivienda_pagos/graficas/pie_pagina_fondo.jpg);
+	background-repeat: repeat-x;
+	height: 103px;
+}
+
+
+.texto_pequeno {
+  font-size: 8pt;
+}
+
+
+.texto_forma_login{
+  font-size: 8pt;
+}
+
+
+.texto_muy_grande {
+  font-size: 14pt;
+}
+
+.vinculo_no_subrayar {
+  text-decoration: none;
+}
+
+.campo_text_borde_linea {
+  font-family: Arial;
+  font-size: 9pt;
+  border-top: 1pt #CCCCCC solid;
+  border-right: 1pt #CCCCCC solid;
+  border-bottom: 1pt #CCCCCC solid;
+  border-left: 1pt #CCCCCC solid;
+}
+
+.boton_buscar {
+  font-family: Arial;
+  font-size: 12px;
+  border-top: 1px;
+}
+
+.campo_lista {
+  font-family: Arial;
+  font-size: 9pt;
+}
+
+.campo_lista_despl {
+	border: 1px solid #C5C7CB;
+	font-size:12px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFFFFF;
+	color: #333;
+}
+
+.campo_lista_despl_login {
+  font-family: Arial;
+  font-size: 7pt;
+}
+
+
+
+.campo_text_forma_login {
+  font-family: Arial;
+  font-size: 8pt;
+  border-top: 1pt #CCCCCC solid;
+  border-right: 1pt #CCCCCC solid;
+  border-bottom: 1pt #CCCCCC solid;
+  border-left: 1pt #CCCCCC solid;
+}
+
+.campo_text_multilinea {
+  font-family: Arial;
+  font-size: 9pt;
+}
+
+.campo_text_buscar {
+  font-family: Arial;
+  font-size: 9pt;
+  border-top: 1pt #CCCCCC solid;
+  border-right: 1pt #CCCCCC solid;
+  border-bottom: 1pt #CCCCCC solid;
+  border-left: 1pt #CCCCCC solid;
+}
+
+.campo_radio{
+  no uso: 1;
+
+}
+
+.campo_caja_seleccion{
+  no uso: 1;
+
+}
+
+/*.tabla_encabezado_medios_pago {
+	width: 832px;
+	padding-top: 20px;
+}*/
+
+.fila_tabla_encabezado_medios_pago{
+  no uso: 1;
+
+}
+
+/*.celda_tabla_encabezado_medios_pago{
+   no uso: 1;
+
+}*/
+
+.tabla_pie_medios_pago{
+
+  no uso: 1;
+	width: 90%;	
+}
+
+.fila_tabla_pie_medios_pago{
+
+  no uso: 1;
+ 
+}
+
+/*.celda_tabla_pie_medios_pago{
+   no uso: 1;
+   
+
+}*/
+
+/*.tabla_medio_pago{
+   no uso: 1;
+	padding: 5px;
+	width: 100%;
+	font-family: verdana;
+	font-size: 11px;
+}
+*/
+
+.fila_tabla_medio_pago {
+   no uso: 1;
+	font-family: verdana;
+	font-size: 11px;
+	color: #333;
+}
+
+/*.celda_tabla_medio_pago{
+   no uso: 1;
+
+}*/
+
+.texto_opcion_medio_pago{
+  font-size: 10pt;
+  cursor:hand;
+}
+
+.campo_radio_medio_pago{
+  no uso: 1;
+
+}
+
+.tabla_encabezado_tarjeta_credito{
+  no uso: 1;
+}
+
+.fila_tabla_encabezado_tarjeta_credito{
+  no uso: 1;
+}
+
+.celda_tabla_encabezado_tarjeta_credito{
+  no uso:1;
+}
+
+
+
+.fila_tabla_tarjeta_credito{
+
+  no uso:1;
+
+}
+.tabla_pie_tarjeta_credito{
+  no uso: 1;
+}
+
+.fila_tabla_pie_tarjeta_credito{
+  no uso: 1;
+}
+
+
+
+.tabla_encabezado_consignacion{
+  no uso: 1;
+}
+
+.fila_tabla_encabezado_consignacion{
+  no uso: 1;
+}
+
+.celda_tabla_encabezado_consignacion{
+  no uso:1;
+}
+
+
+.tabla_pie_consignacion{
+  no uso: 1;
+}
+
+.fila_tabla_pie_consignacion{
+  no uso: 1;
+}
+
+.celda_tabla_pie_consignacion{
+  no uso:1;
+}
+
+.tabla_encabezado_contraentrega{
+  no uso: 1;
+}
+
+.fila_tabla_encabezado_contraentrega{
+  no uso: 1;
+}
+
+.celda_tabla_encabezado_contraentrega{
+  no uso:1;
+}
+
+
+.tabla_pie_contraentrega{
+  no uso: 1;
+}
+
+.fila_tabla_pie_contraentrega{
+  no uso: 1;
+}
+
+.celda_tabla_pie_contraentrega{
+  no uso:1;
+}
+
+
+.tabla_formas_dinamicas{
+  no uso: 1;
+}
+
+.fila_tabla_formas_dinamicas{
+  no uso: 1;
+}
+
+.celda_formas_dinamicas{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #797979;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-bottom: 3px; 
+ 
+}
+
+.texto_campo{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #797979;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 30px;
+}
+
+.texto_id_obligatorio{	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #797979;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 30px;}
+
+.boton_enviar_formas_dinamicas {
+   no uso:1;
+}
+
+.boton_siguiente_formas_dinamicas {
+   no uso:1;
+}
+
+.tabla_formas_pregunta_encabezado{
+  no uso: 1;
+}
+
+.fila_tabla_formas_pregunta_encabezado{
+  no uso: 1;
+}
+
+.celda_formas_pregunta_encabezado{
+  no uso:1;
+}
+
+.tabla_formas_pregunta{
+  no uso: 1;
+}
+
+.fila_tabla_formas_pregunta{
+  no uso: 1;
+}
+
+.celda_formas_pregunta{
+
+	height: 30px;
+}
+
+.tabla_canasta
+  	{border-top: 1pt #E2E2E2 solid;
+  border-right: 1pt #E2E2E2 solid;
+  border-bottom: 1pt #E2E2E2 solid;
+  border-left: 1pt #E2E2E2 solid;}
+
+
+.fila_encabezado_canasta 
+	{no uso: 1;
+  background-color: #E2E2E2;}
+
+
+.celda_encabezado_canasta 
+	{no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;}
+
+
+.fila_canasta
+	{no uso: 1;}
+
+.celda_canasta
+	{no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;
+	}
+
+.fila_titulo_encabezado 
+	{background-color:#003399;
+	FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+        text-decoration:none;
+        color:#FFFFFF;
+	text-align: center;
+	font-weight:bold;
+	HEIGHT:"20"
+	}
+
+.celda_titulo_encabezado 
+	{background-color:#003399;
+	FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+        text-decoration:none;
+        color:#FFFFFF;
+	text-align: center;
+	font-weight:bold;
+	border-bottom: 1pt #F3F7F8 solid;
+	HEIGHT:"20"
+	}
+
+.vinculo_opciones {
+  text-decoration: none;
+  comentario: "no borrar";
+}
+
+.texto_opciones {
+  FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+  no usar: "no borrar";
+  border-top: 2pt ridge;
+  width: auto;
+  height: 10pt;
+  padding-right: 10pt;
+  border-right: 2pt ridge;
+  border-bottom: 2pt ridge;
+  border-left: 2pt ridge;
+}
+
+
+.tabla_buscar{
+  no uso: 1;
+  border-top: 1pt ridge;
+  list-style-type: square;
+  border-right: 1pt ridge;
+  border-bottom: 1pt ridge;
+  border-left: 1pt ridge;
+  padding-right: 7px; 
+  padding-left: 7px;	
+}
+
+
+.celda_buscar_pie {
+  no usar: "no borrar";
+  padding-top: 3pt;
+  padding-right: 3pt;
+  padding-left: 3pt;
+  padding-bottom: 10pt;
+  background-color: #FFFFFF;
+}
+
+
+.celda_buscar_info {
+  no uso: 1;
+  background-color: #FFFFFF;
+}
+
+
+.tabla_opciones {
+  no uso: 1;
+  border-top: 1pt #E2E2E2 solid;
+  margin-top: 2pt;
+  margin-bottom: 2pt;
+  border-right: 1pt #E2E2E2 solid;
+  border-bottom: 1pt #E2E2E2 solid;
+  border-left: 1pt #E2E2E2 solid;
+}
+
+.fila_opciones {
+  no uso: 1;
+  background-color: #E0E0E0;
+}
+
+.celda_info_mr {
+  no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;
+  border-right: 1pt #E2E2E2 solid;
+  border-left: 1pt #E2E2E2 solid;
+}
+
+
+.tabla_encabezado {
+  sin uso: 1;
+  border-top: 0pt ;
+  border-right: 0pt ;
+  border-bottom: 0pt ;
+  border-left: 0pt ;
+}
+
+.vinculo_orden {
+  text-decoration: none;
+}
+
+.texto_orden {
+  FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+}
+
+.tabla_multiregistros {
+	border-top: 1pt #E2E2E2 solid;
+	border-right: 1pt #E2E2E2 solid;
+	border-bottom: 1pt #E2E2E2 solid;
+	border-left: 1pt #E2E2E2 solid;
+	font-family: verdana;
+	font-size: 11px;
+	text-decoration: none;
+	color: #333;
+	padding: 2px;
+}
+
+.fila_titulo_mr {
+  no uso: 1;
+	background-color: #E2E2E2;
+	font-family: verdana;
+	font-size: 11px;
+	text-decoration: none;
+	color: #333;
+	padding: 2px;
+}
+
+.celda_titulo_mr {
+  no uso: 1;
+	border-bottom: 1pt #E2E2E2 solid;
+	font-family: verdana;
+	font-size: 11px;
+	color: #333;
+	padding: 2px;
+}
+
+
+
+.fila_forma_pago {
+	height:35px;
+	width: 50px;
+}
+
+.celda_forma_pago {
+  	
+	border-bottom-width: 1pt;
+	}
+
+/* Adicionados 24 de junio de 2005 */
+
+
+.tabla_login{
+
+   padding-bottom: 5px;
+   border-top:    1px black solid;
+   border-right:  1px black solid; 
+   border-bottom: 1px black solid; 
+   border-left: 1px black solid;
+   
+
+}
+
+.fila_login{
+
+   
+   padding-left: 3px; 
+   padding-bottom: 5px;
+     
+
+}
+
+.fila_login_encabezado{
+
+   
+   padding-left: 3px; 
+   padding-bottom: 5px;
+     
+
+}
+
+
+.tabla_paginacion {
+  border-top: 1pt #E2E2E2 solid;
+  border-right: 1pt #E2E2E2 solid;
+  border-bottom: 1pt #E2E2E2 solid;
+  border-left: 1pt #E2E2E2 solid;
+}
+
+.fila_paginacion {
+  no uso: 1;
+}
+
+.tabla_multiregistros_producto {
+  border-top: 1pt #E2E2E2 solid;
+  border-bottom: 1pt #E2E2E2 solid;
+  
+}
+
+
+.fila_titulo_mr_producto {
+  no uso: 1;
+  background-color: #E2E2E2;
+}
+
+.celda_titulo_mr_producto {
+  no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;
+}
+
+.fila_info_mr_producto {
+  no uso: 1;
+}
+
+.celda_info_mr_producto {
+  no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+
+.tabla_forma_contactenos {
+  border-top: 1pt #E2E2E2 solid;
+  border-right: 1pt #E2E2E2 solid;
+  border-bottom: 1pt #E2E2E2 solid;
+  border-left: 1pt #E2E2E2 solid;
+}
+
+
+.fila_titulo_forma_contactenos {
+  no uso: 1;
+  background-color: #E2E2E2;
+}
+
+.celda_titulo_forma_contactenos {
+  no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;
+}
+
+.fila_info_forma_contactenos {
+  no uso: 1;
+}
+
+.celda_info_forma_contactenos {
+  no uso: 1;
+  
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+.tabla_forma_registro {
+  margin-top: 10px;
+  
+}
+
+.fila_titulo_forma_registro {
+  no uso: 1;
+  
+}
+
+.celda_titulo_forma_registro {
+  no uso: 1;
+  
+}
+
+
+
+.fila_info_forma_registro {
+  no uso: 1;
+}
+
+.celda_info_forma_registro {
+  no uso: 1;
+  
+  padding-bottom: 2px;
+  
+}
+
+
+.fila_titulo_columna_canasta {
+  no uso: 1;
+  background-color: #E2E2E2;
+  
+}
+
+
+.celda_titulo_columna_canasta {
+  no uso: 1;
+  border-top: 1pt #D4D4D4 solid;
+  border-bottom: 1px #D4D4D4 solid;
+  padding-bottom: 2px;
+  
+}
+
+.fila_info_canasta {
+  no uso: 1;
+}
+
+.celda_info_canasta {
+  no uso: 1;
+  border-bottom: 1pt #E2E2E2 solid;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+.fila_totales_canasta {
+  no uso: 1;
+  background-color: #E2E2E2;
+}
+
+
+.celda_totales_canasta {
+  no uso: 1;
+  border-top: 1pt #D4D4D4 solid;
+  border-bottom: 1px #D4D4D4 solid;
+  padding-bottom: 2px;
+  
+}
+
+.vinculo_borrar_canasta {
+  text-decoration: none;
+}
+
+/*.tabla_medios_pago {
+	font-family: verdana;
+	font-size: 11px;
+	color: #333;
+	padding: 10px;
+	width: 90%;
+}
+*/
+
+
+
+/* Adicionados 5 de julio 2009 para formatos por Margarita */
+
+
+.formt_tabla {
+	padding: 15px;
+}
+.formt_contenido {
+	font-family: verdana;
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+}
+
+.formt_titulos {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	height: 35px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #C0C0C0;
+	text-transform: uppercase;
+}
+.formt_label {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: right;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.formt_respuesta {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.formt_advertencia {
+	font-family: verdana;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: none;
+}
+.formt_contenidoitalic {
+	font-family: verdana;
+	font-size: 11px;
+	color: #333;
+	text-decoration: none;
+	font-style: normal;
+}
+.formt_SUBtitulos {
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	height: 35px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	text-transform: capitalize;
+}
+.formt_labelleft {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.formt_imprimir {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #03F;
+	text-decoration: none;
+}
+.formt_colorrojo {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #900;
+	text-decoration: none;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+.formt_titulo_credito {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #004040;
+	text-align: center;
+	vertical-align: middle;
+}
+.formt_bold {
+	font-weight: bold;
+}
+.formt_encabezado {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+}
+.formt_rojosolo {
+	font-weight: normal;
+	color: #900;
+}
+.formt_light {
+	font-weight: lighter;
+}
+.formt_tabla2 {
+	padding: 15px;
+	border: 1px solid #F0F0F0;
+}
+.formt_labelleftsin {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFF;
+}
+.formt_labelleftsinizq {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	text-align: right;
+	height: 30px;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFF;
+}
+.formt_minus {
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #333;
+}
+.fondo_pie_pagina
+{
+	height: 55px;
+}
+.piecito {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #E2E4DC;
+}
+.pie_new {
+	font-family: arial;
+	font-size: 0.7em;
+	color: #999;
+	text-decoration: none;
+	text-align: right;
+	line-height: 16px;
+	padding-right: 10px;
+}
+.pie_new_verde {
+	color: #387A7E;
+	text-decoration: none;
+}
+
+
+
+/*.........................Estilos zpp.................*/
+
+.tableRollOverEffect_zp_personas{
+	background-color:/*E3DFDF*/#DCD9D9;
+	color:#FFF;
+	border: 1px solid #F00;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin: auto;
+	cursor:pointer;
+	}
+
+.tableRowClickEffect_zp_personas{
+	background-color:/*#E3E3E3 #D3CDC9 #D6D4D4*/#E3E2E2;
+	color:#FFFFFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-size: 15px;
+	background-repeat: repeat-x;
+	margin: auto;
+	}
+
+.tabla_encabezado_zp_personas {
+    width: 100%;
+    margin: auto;
+}
+
+.celda_tabla_encabezado_zp_personas {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: -moz-linear-gradient(center top , #969796, #EAE9E6) repeat scroll 0% 0% transparent;
+}
+
+.zp_personas {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #D8CFBE;
+    background-color: #EAE9E6;
+}
+
+.celda_tabla_zp_personas {
+    font-size: 15px;
+    padding: 20px;
+    margin: auto;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 1px;
+    border-top: 1px solid #FFF;
+}
+
+.celda_tabla_registro_zpp{
+	height: 25px;
+}
+
+.tabla_encabezado_forma_cr{
+	text-transform: uppercase;
+	width: 700px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #CCC;
+}
+.celda_forma_cr{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.tabla_forma_cr{
+	margin: auto;
+	width: 700px;
+	height: 25px;
+	padding-top: 10px;
+}
+
+#opcionzp2{
+	padding: 15px;
+}
+
+.celda_tarjeta_credito{
+	height: 25px;
+}
+
+.texto_forma_autenticacion_zp_personas {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 25px;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+
+.texto_olvido_clave_zp_personas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #09F;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+
+.boton_forma_autenticacion_zp_personas {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	background-image: url(/tiendas_c/plantillas/taquilla1/graficas/fondo_boton.png);
+	background-repeat: repeat-x;
+	height: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 120px;
+	border: 1px solid #BECBD6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.boton_forma_registro_zp_personas {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	background-image: url(/tiendas_c/plantillas/taquilla1/graficas/fondo_boton.png);
+	background-repeat: repeat-x;
+	height: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 170px;
+	border: 1px solid #BECBD6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.boton_olvido_clave_zp_personas {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+   
+}
+
+.tabla_seleccion_tarjeta_credito {
+    margin: auto;
+    width: 730px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.lista_despl_tc_zpp {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+    text-decoration: none;
+    margin: 1px;
+    padding: 3px;
+    border: 1px solid #E0E9E9;
+}
+
+
+
+
+/*.........................ACA TERMINAN.................*/
+
+
+
+
